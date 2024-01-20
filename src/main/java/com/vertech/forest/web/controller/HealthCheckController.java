@@ -17,7 +17,7 @@ public class HealthCheckController {
     @GetMapping
     public ResponseEntity<ResponseWrapper<?>> getAll(){
 
-        String message = "Forest API - v.1.0.0";
+        String message = "Forest API - v.2.0.0 Auto";
         List<QueryEntity> data = null;
         HttpStatus httpStatus = HttpStatus.OK;
 
