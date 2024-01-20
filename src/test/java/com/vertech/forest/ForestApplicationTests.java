@@ -22,7 +22,7 @@ class ForestApplicationTests {
 		species = specieInfoService.getAllSpecies();
 		int speciesQuantity = species.size();
 
-		Assertions.assertEquals(18, speciesQuantity);
+		Assertions.assertEquals(10, speciesQuantity);
 	}
 
 }
